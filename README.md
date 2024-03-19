@@ -78,8 +78,8 @@ The identified rhymes were rectified using an LLM, which was then compared using
 
 <!-- [Plot of the Responses]("./img/Responses.png") -->
 
-<p>
-    <img src="img/Responses.png" />
+<p align="center">
+    <img src="img/Responses.png"/>
 </p>
 
 Furthermore, our study underscored the importance of considering the social and intellectual context in which classical literature was crafted, emphasizing the need for a critical approach when engaging with these works and using LLMs to help provide content to understand society in an unbiased way.
