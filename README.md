@@ -100,6 +100,7 @@ If you use our dataset or findings, please cite us using:
       year={2024},
       eprint={2403.11752},
       archivePrefix={arXiv},
-      primaryClass={cs.CL}
+      primaryClass={cs.CL},
+      notes = {Accepted to appear at LREC-COLING 2024}
 }
 ```
