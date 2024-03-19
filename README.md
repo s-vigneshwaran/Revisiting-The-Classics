@@ -94,7 +94,12 @@ Our study's outcomes emphasize the prevalence of gender stereotypes in classical
 
 If you use our dataset or findings, please cite us using:
 ```
-@inproceedings{
-    
+@misc{sankaran2024revisiting,
+      title={Revisiting The Classics: A Study on Identifying and Rectifying Gender Stereotypes in Rhymes and Poems}, 
+      author={Aditya Narayan Sankaran and Vigneshwaran Shankaran and Sampath Lonka and Rajesh Sharma},
+      year={2024},
+      eprint={2403.11752},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
 }
 ```
