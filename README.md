@@ -47,7 +47,7 @@ Inspired by this finding, we propose the concept of a Heuristic Encoder, which i
 To achieve this, the annotators were asked to compile a comprehensive list of words, phrases and gender-specific names that they consider stereotypical from the list of poems and rhymes that were annotated, making the feature list limited to the dataset for better contextual understanding, acting as an additional source other than the text features. In addition, we also perform sentiment analysis as part of the encoding process, enabling the identification and characterization of sentiment patterns and tendencies within the text, contributing to a deeper understanding of the emotional aspects conveyed.
 
 ![The Heuristic Encoder: Incorporating annotator-learned features and sentiment analysis for
-gender nuances and sentiment orientations]("./img/HE.png")
+gender nuances and sentiment orientations]("img/HE.png")
 
 A binary valued feature vector is generated for the given text, using the annotator learned features collected during the encoder design process as part of the annotation process. The structure of each vector is defined as follows: [Male Names, Female Names, Stereotypes, Negative, Positive]. This vector is designed to encompass relevant information related to gender-specific names, identified stereo- types, and sentiment polarity.
 
