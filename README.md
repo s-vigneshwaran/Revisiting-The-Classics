@@ -59,7 +59,7 @@ Heuristic Encoder lead to improvements in key metrics such as precision, recall,
 
 ## Stereotype Classification
 
-Our best performing model with a remarkable 97% accuracy in identifying gender stereotypes in rhymes and poems, is $BERT_{SS}(1L)$. Another contribution is model performance improvement enhanced through the integration of a Heuristic Encoder, leading to improvements in key metrics such as precision, recall, and F1-Score for feature-based models. 
+Our best performing model with a remarkable 97% accuracy in identifying gender stereotypes in rhymes and poems, is BERT<sub>SS</sub>(1L). Another contribution is model performance improvement enhanced through the integration of a Heuristic Encoder, leading to improvements in key metrics such as precision, recall, and F1-Score for feature-based models. 
 
 | **Model Name (nL/F)** 	| **Accuracy** 	| **Precision** 	| **Recall** 	| **F1-Score** 	|
 |-----------------------	|:------------:	|:-------------:	|:----------:	|:------------:	|
@@ -69,8 +69,8 @@ Our best performing model with a remarkable 97% accuracy in identifying gender s
 | XGBoost + HE (2L)     	|     0.94     	|      0.74     	|    0.73    	|     0.74     	|
 | BERT Base (F)         	|     0.83     	|      0.75     	|     0.8    	|     0.77     	|
 | BERT Base (2L)        	|     0.94     	|      0.76     	|    0.79    	|     0.77     	|
-| BERT$_{SS}$ (F)       	|     0.82     	|      0.74     	|    0.69    	|     0.71     	|
-| BERT$_{SS}$ (1L)      	|   **0.97**   	|    **0.77**   	|  **0.81**  	|   **0.79**   	|
+| BERT<sub>SS</sub> (F)   	|     0.82     	|      0.74     	|    0.69    	|     0.71     	|
+| **BERT<sub>SS</sub> (1L)**|   **0.97**   	|    **0.77**   	|  **0.81**  	|   **0.79**   	|
 
 ## Rectification
 
