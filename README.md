@@ -84,8 +84,6 @@ The identified rhymes were rectified using an LLM, which was then compared using
 
 Our study's outcomes emphasize the prevalence of gender stereotypes in classical literature and stress the significance of rectifying these biases to foster inclusivity and gender equality. By reimagining and rewriting traditional rhymes and poems, authors can play a pivotal role in correcting these biases and presenting a more inclusive depiction of history that embraces diverse perspectives, especially those of women and marginalized groups.
 
----
-
 ## Citation
 
 If you use our dataset or findings, please cite us using:
