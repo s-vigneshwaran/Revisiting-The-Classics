@@ -1,10 +1,10 @@
 # Revisiting The Classics: A Study on Identifying and Rectifying Gender Stereotypes in Rhymes and Poems
 
-Our research paper titled "Revisiting The Classics: A Study on Identifying and Rectifying Gender Stereotypes in Rhymes and Poems" delves into a thorough examination of gender biases within classical literature, specifically focusing on rhymes and poems. The primary objective of the study is to identify and address these identified stereotypes using a Large Language Model (LLM).
+Our research paper titled "Revisiting The Classics: A Study on Identifying and Rectifying Gender Stereotypes in Rhymes and Poems" is a thorough examination of gender biases within classical literature, specifically focusing on rhymes and poems. The primary objective of the study is to identify and address these identified stereotypes using a Large Language Model (LLM).
 
 ## Datset Curation
 
-We analyzed poems and rhymes aimed at children and adolescents to see how often they contain gender stereotypes. For this task, a diverse collection of children's rhymes and poetry suitable for adolescents were curated from various sources, including works by renowned poets like [Shakespeare](https://nosweatshakespeare.com/sonnets/), [Frost](https://www.robertfrost.org/poems.jsp), etc, as well as popular compilations such as [Mother Goose](https://allpoetry.com/Mother-Goose). This dataset was thoughtfully selected to encompass a range of styles, themes, and cultural backgrounds, with valuable insights from experts in Literature and Education. Employing a two-phase annotation approach, annotators established clear annotation guidelines and labelled the dataset. Additionally, the inclusion of translated poems from multiple languages enriched the dataset, making it a comprehensive resource for analysis and further research.
+We analyzed poems and rhymes aimed at children and adolescents to see how often they contain gender stereotypes. For this task, a diverse collection of children's rhymes and poetry suitable for adolescents was curated from various sources, including works by renowned poets like [Shakespeare](https://nosweatshakespeare.com/sonnets/), [Frost](https://www.robertfrost.org/poems.jsp), etc, as well as popular compilations such as [Mother Goose](https://allpoetry.com/Mother-Goose). This dataset was thoughtfully selected to encompass a range of styles, themes, and cultural backgrounds, with valuable insights from experts in Literature and Education. Employing a two-phase annotation approach, annotators established clear annotation guidelines and labelled the dataset. Additionally, the inclusion of translated poems from multiple languages enriched the dataset, making it a comprehensive resource for analysis and further research.
 
 ### Dataset Statistics
 
@@ -46,20 +46,17 @@ Inspired by this finding, we propose the concept of a Heuristic Encoder, which i
 
 To achieve this, the annotators were asked to compile a comprehensive list of words, phrases and gender-specific names that they consider stereotypical from the list of poems and rhymes that were annotated, making the feature list limited to the dataset for better contextual understanding, acting as an additional source other than the text features. In addition, we also perform sentiment analysis as part of the encoding process, enabling the identification and characterization of sentiment patterns and tendencies within the text, contributing to a deeper understanding of the emotional aspects conveyed.
 
-<!-- ![The Heuristic Encoder: Incorporating annotator-learned features and sentiment analysis for -->
-<!-- gender nuances and sentiment orientations]("img/HE.png") -->
-
 <p>
     <img src="img/HE.png" />
 </p>
 
-A binary valued feature vector is generated for the given text, using the annotator learned features collected during the encoder design process as part of the annotation process. The structure of each vector is defined as follows: [Male Names, Female Names, Stereotypes, Negative, Positive]. This vector is designed to encompass relevant information related to gender-specific names, identified stereo- types, and sentiment polarity.
+A binary valued feature vector is generated for the given text, using the annotator learned features collected during the encoder design process as part of the annotation process. The structure of each vector is defined as follows: [Male Names, Female Names, Stereotypes, Negative, Positive]. This vector is designed to encompass relevant information related to gender-specific names, identified stereotypes, and sentiment polarity.
 
-Heuristic Encoder lead to improvements in key metrics such as precision, recall, and F1-Score for feature-based models. 
+Heuristic Encoder leads to improvements in key metrics such as precision, recall, and F1-Score for feature-based models. 
 
 ## Stereotype Classification
 
-Our best performing model with a remarkable 97% accuracy in identifying gender stereotypes in rhymes and poems, is BERT<sub>SS</sub>(1L). Another contribution is model performance improvement enhanced through the integration of a Heuristic Encoder, leading to improvements in key metrics such as precision, recall, and F1-Score for feature-based models. 
+Our best-performing model with a 97% accuracy in identifying gender stereotypes in rhymes and poems, is BERT<sub>SS</sub>(1L). Another contribution is model performance improvement enhanced through the integration of a Heuristic Encoder, leading to improvements in key metrics such as precision, recall, and F1-Score for feature-based models. 
 
 | **Model Name (nL/F)** 	| **Accuracy** 	| **Precision** 	| **Recall** 	| **F1-Score** 	|
 |-----------------------	|:------------:	|:-------------:	|:----------:	|:------------:	|
@@ -88,7 +85,7 @@ Our study's outcomes emphasize the prevalence of gender stereotypes in classical
 
 If you use our dataset or findings, please cite us using:
 ```
-@inproceedings{sankaran-etal-2024-revisiting-classics,
+@inproceedings{sankaran2024revisiting,
     title = "Revisiting the Classics: A Study on Identifying and Rectifying Gender Stereotypes in Rhymes and Poems",
     author = "Sankaran, Aditya Narayan  and
       Shankaran, Vigneshwaran  and
